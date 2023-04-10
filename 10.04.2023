@@ -1,1 +1,32 @@
+1)
+numA = float(input("digite um número A: "))
+numB = float(input("digite um número B: "))
+numC = float(input("digite um número C: "))
 
+soma = numA + numB
+
+if soma < numC:
+  print("a soma de A e B é menor que o número C")
+
+elif soma == numC:
+  print("a soma entre A e B é igual a C")
+
+else:
+  print("a soma entre A e B é maior que C")
+
+-----------------------------------------------------------
+2)
+numA = float(input("digite um número: "))
+
+while(numA >= 0):
+  dobro = numA * 2
+  print(dobro)
+  numA = float(input("digite um número: "))
+
+------------------------------------------------------------
+3)
+num = 1
+
+while(num <= 10):
+  print(num)
+  num += 1
